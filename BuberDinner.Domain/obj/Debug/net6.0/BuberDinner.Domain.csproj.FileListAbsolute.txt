@@ -1,0 +1,12 @@
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/bin/Debug/net6.0/BuberDinner.Domain.deps.json
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/bin/Debug/net6.0/BuberDinner.Domain.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/bin/Debug/net6.0/BuberDinner.Domain.pdb
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.csproj.AssemblyReference.cache
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.AssemblyInfoInputs.cache
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.AssemblyInfo.cs
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.csproj.CoreCompileInputs.cache
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/refint/BuberDinner.Domain.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/BuberDinner.Domain.pdb
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/obj/Debug/net6.0/ref/BuberDinner.Domain.dll

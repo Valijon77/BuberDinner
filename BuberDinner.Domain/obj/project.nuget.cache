@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6xWbaZg4t2zTaO8NSe8REakLSKXrKf7LC1zICP5+oRjeBa7/HuaNXnJcOiDVJq/nggRtwNyJK5t2/suclkgMlA==",
+  "success": true,
+  "projectFilePath": "/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Domain/BuberDinner.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/valijon/.nuget/packages/erroror/1.9.0/erroror.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
