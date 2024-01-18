@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3m0wOxBsDDpmE2TNlA/N5DdA98CXFpAGfx/QBzRFimPq21JXgyXOnc2cZAiW55YB2gSNkzXferBdEWDdHtpbg==",
+  "dgSpecHash": "j+TGx8tGfYBf0mG2Wf2EaNZaaKPxWs4EAOiKQjf05Wl0zWEViQ86Eyu+1+0f/XmtSh8I4d1eQJzy83Jygj5IAw==",
   "success": true,
   "projectFilePath": "/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Application/BuberDinner.Application.csproj",
   "expectedPackageFiles": [
     "/Users/valijon/.nuget/packages/erroror/1.9.0/erroror.1.9.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
-    "/Users/valijon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.logging/1.0.0/microsoft.identitymodel.logging.1.0.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.tokens/5.0.0/microsoft.identitymodel.tokens.5.0.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
