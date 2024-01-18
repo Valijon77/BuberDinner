@@ -30,19 +30,19 @@ namespace BuberDinner.Application.Authentication.Queries.Login
             // 1. Validate user exists
             if (_userRepository.GetUserByEmail(query.Email) is not User user)
             {
-                return Errors.Authentication.InvalidCredentials;
+                return await Task.FromResult(Errors.Authentication.InvalidCredentials);
             }
 
             // 2. Password is correct
             if (user.Password != query.Password)
             {
-                return new[] { Errors.Authentication.InvalidCredentials };
+                return await Task.FromResult(new[] { Errors.Authentication.InvalidCredentials });
             }
 
             // 3. Create JWT token
             var token = _jwtTokenGenerator.GenerateToken(user);
 
-            return new AuthenticationResult(user, token);
+            return await Task.FromResult(new AuthenticationResult(user, token));
         }
     }
 }

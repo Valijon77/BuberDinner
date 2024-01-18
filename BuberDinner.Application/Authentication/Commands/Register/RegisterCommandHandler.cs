@@ -31,7 +31,7 @@ namespace BuberDinner.Application.Authentication.Commands.Register
             // 1. Validate user does not exist
             if (_userRepository.GetUserByEmail(command.Email) is not null)
             {
-                return Errors.User.DuplicateEmail;
+                return await Task.FromResult(Errors.User.DuplicateEmail);
             }
 
             // 2. Create user (generate unique id) & Persist user to DB
@@ -48,7 +48,7 @@ namespace BuberDinner.Application.Authentication.Commands.Register
             // 3. Create jwt token
             var token = _jwtTokenGenerator.GenerateToken(user);
 
-            return new AuthenticationResult(user, token);
+            return await Task.FromResult(new AuthenticationResult(user, token));
         }
     }
 }
