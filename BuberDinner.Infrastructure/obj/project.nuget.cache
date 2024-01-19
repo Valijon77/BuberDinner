@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8BJheQxnLg3Qp1WlOux5OK9U+awj5AmrvXQ9Qt7HaMLtME0yEf81KXi9EWrrjVDvJIryeDt0x+fiDBzgdGHPMw==",
+  "dgSpecHash": "59z2ckyTLVTkjl15geswMne3IArtou5wcieGLKoDWSMvp6CAnBge8RDVsOrXOwZmOjvoq7Mt+8VYLDPhQqlVSg==",
   "success": true,
   "projectFilePath": "/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Infrastructure/BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/valijon/.nuget/packages/erroror/1.9.0/erroror.1.9.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/valijon/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/valijon/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",

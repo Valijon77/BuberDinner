@@ -42,3 +42,7 @@
 /Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/Mapster.dll
 /Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/Mapster.Core.dll
 /Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/Mapster.DependencyInjection.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/FluentValidation.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/FluentValidation.AspNetCore.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/bin/Debug/net6.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/obj/Debug/net6.0/BuberDinner.Api.MvcApplicationPartsAssemblyInfo.cs
