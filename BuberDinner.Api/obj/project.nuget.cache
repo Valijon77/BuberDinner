@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aoAUdrPhEJkOfe/HbrRKsVaSoUZrtlNQArSZ0k9LIPJ16Fjfl2XcrEGm5iV4vXbnUufpeOkfIFfdyULNEtOhWg==",
+  "dgSpecHash": "566XioJ4hEEPhHjr2Xkbsl6SToYyBOCOMNbG3XFx1jx92Rcx5G7pvUhyCfqN1HgzCUFL0vkJCB5DDH7k33pQcg==",
   "success": true,
   "projectFilePath": "/Users/valijon/VSCodeProjects/dotNET/BuberDinner/BuberDinner.Api/BuberDinner.Api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/Users/valijon/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/valijon/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.8/microsoft.aspnetcore.authentication.jwtbearer.6.0.8.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -25,6 +26,8 @@
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.abstractions/6.35.0/microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.35.0/microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.logging/6.35.0/microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/Users/valijon/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.identitymodel.tokens/6.35.0/microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/valijon/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
