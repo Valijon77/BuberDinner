@@ -1,10 +1,10 @@
 using BuberDinner.Application.Common.Interfaces.Authentication;
 using BuberDinner.Application.Common.Interfaces.Persistence;
 using BuberDinner.Domain.Common.Errors;
-using BuberDinner.Domain;
 using ErrorOr;
 using MediatR;
 using BuberDinner.Application.Authentication.Common;
+using BuberDinner.Domain.Entities;
 
 namespace BuberDinner.Application.Authentication.Commands.Register
 {
