@@ -4,7 +4,7 @@ using BuberDinner.Domain.Common.Errors;
 using ErrorOr;
 using MediatR;
 using BuberDinner.Application.Authentication.Common;
-using BuberDinner.Domain.Entities;
+using BuberDinner.Domain.Users;
 
 namespace BuberDinner.Application.Authentication.Commands.Register
 {
@@ -35,13 +35,7 @@ namespace BuberDinner.Application.Authentication.Commands.Register
             }
 
             // 2. Create user (generate unique id) & Persist user to DB
-            var user = new User()
-            {
-                FirstName = command.FirstName,
-                LastName = command.LastName,
-                Email = command.Email,
-                Password = command.Password
-            };
+            var user = User.Create(command.FirstName, command.LastName, command.Email, command.Password);
 
             _userRepository.Add(user);
 
