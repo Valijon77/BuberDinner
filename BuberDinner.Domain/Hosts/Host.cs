@@ -1,8 +1,8 @@
 using BuberDinner.Domain.Common.Models;
 using BuberDinner.Domain.Common.ValueObjects;
-using BuberDinner.Domain.Dinner.ValueObjects;
+using BuberDinner.Domain.Dinners.ValueObjects;
 using BuberDinner.Domain.Hosts.ValueObjects;
-using BuberDinner.Domain.Menu.ValueObjects;
+using BuberDinner.Domain.Menus.ValueObjects;
 using BuberDinner.Domain.Users.ValueObjects;
 
 namespace BuberDinner.Domain.Hosts;

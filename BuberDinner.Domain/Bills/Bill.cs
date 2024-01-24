@@ -1,6 +1,6 @@
 using BuberDinner.Domain.Bills.ValueObjects;
 using BuberDinner.Domain.Common.Models;
-using BuberDinner.Domain.Dinner.ValueObjects;
+using BuberDinner.Domain.Dinners.ValueObjects;
 using BuberDinner.Domain.Guests.ValueObjects;
 using BuberDinner.Domain.Hosts.ValueObjects;
 

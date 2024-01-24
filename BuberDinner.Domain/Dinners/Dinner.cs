@@ -1,11 +1,11 @@
 using BuberDinner.Domain.Bills.ValueObjects;
 using BuberDinner.Domain.Common.Models;
-using BuberDinner.Domain.Dinner.Entities;
-using BuberDinner.Domain.Dinner.ValueObjects;
+using BuberDinner.Domain.Dinners.Entities;
+using BuberDinner.Domain.Dinners.ValueObjects;
 using BuberDinner.Domain.Hosts.ValueObjects;
-using BuberDinner.Domain.Menu.ValueObjects;
+using BuberDinner.Domain.Menus.ValueObjects;
 
-namespace BuberDinner.Domain.Dinner;
+namespace BuberDinner.Domain.Dinners;
 
 public sealed class Dinner : AggregateRoot<DinnerId>
 {
@@ -78,7 +78,8 @@ public sealed class Dinner : AggregateRoot<DinnerId>
         MenuId menuId,
         string imageUrl,
         Location location
-    ) {
+    )
+    {
         return new(
             DinnerId.CreateUnique(),
             name,

@@ -1,9 +1,9 @@
 using BuberDinner.Domain.Bills.ValueObjects;
 using BuberDinner.Domain.Common.Models;
-using BuberDinner.Domain.Dinner.ValueObjects;
+using BuberDinner.Domain.Dinners.ValueObjects;
 using BuberDinner.Domain.Guests.ValueObjects;
 
-namespace BuberDinner.Domain.Dinner.Entities;
+namespace BuberDinner.Domain.Dinners.Entities;
 
 public sealed class Reservation : Entity<ReservationId>
 {
