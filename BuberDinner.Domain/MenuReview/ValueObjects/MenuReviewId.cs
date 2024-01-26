@@ -2,9 +2,9 @@ using BuberDinner.Domain.Common.Models;
 
 namespace BuberDinner.Domain.MenuReview.ValueObjects
 {
-    public class MenuReviewId : ValueObject
+    public class MenuReviewId : AggregateRootId<Guid>
     {
-        public Guid Value { get; }
+        public override Guid Value { get; protected set; }
 
         private MenuReviewId(Guid value)
         {
@@ -16,9 +16,16 @@ namespace BuberDinner.Domain.MenuReview.ValueObjects
             return new MenuReviewId(Guid.NewGuid());
         }
 
+        public static MenuReviewId Create(Guid value)
+        {
+            return new(value);
+        }
+
         public override IEnumerable<object> GetEqualityComponents()
         {
             yield return Value;
         }
+
+        private MenuReviewId() { }
     }
 }

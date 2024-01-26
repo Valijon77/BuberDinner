@@ -8,7 +8,7 @@ using BuberDinner.Domain.Menus.ValueObjects;
 
 namespace BuberDinner.Domain.MenuReview;
 
-public class MenuReview:AggregateRoot<MenuReviewId>
+public class MenuReview : AggregateRoot<MenuReviewId, Guid>
 {
     public Rating Rating { get; }
     public string Comment { get; }
@@ -27,7 +27,8 @@ public class MenuReview:AggregateRoot<MenuReviewId>
         GuestId guestId,
         DinnerId dinnerId,
         DateTime createdDateTime,
-        DateTime updatedDateTime)
+        DateTime updatedDateTime
+    )
         : base(menuReviewId)
     {
         Comment = comment;
@@ -44,7 +45,8 @@ public class MenuReview:AggregateRoot<MenuReviewId>
         HostId hostId,
         MenuId menuId,
         GuestId guestId,
-        DinnerId dinnerId)
+        DinnerId dinnerId
+    )
     {
         return new(
             MenuReviewId.CreateUnique(),
@@ -54,6 +56,11 @@ public class MenuReview:AggregateRoot<MenuReviewId>
             guestId,
             dinnerId,
             DateTime.UtcNow,
-            DateTime.UtcNow);
+            DateTime.UtcNow
+        );
     }
+
+#pragma warning disable CS8618
+    private MenuReview() { }
+#pragma warning restore CS8618
 }

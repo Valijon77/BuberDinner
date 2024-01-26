@@ -2,9 +2,9 @@ using BuberDinner.Domain.Common.Models;
 
 namespace BuberDinner.Domain.Users.ValueObjects;
 
-public sealed class UserId : ValueObject
+public sealed class UserId : AggregateRootId<Guid>
 {
-    public Guid Value { get; }
+    public override Guid Value { get; protected set; }
 
     private UserId(Guid value)
     {
@@ -16,8 +16,16 @@ public sealed class UserId : ValueObject
         return new(Guid.NewGuid());
     }
 
+    public static UserId Create(Guid value)
+    {
+        return new(value);
+    }
+
     public override IEnumerable<object> GetEqualityComponents()
     {
         yield return Value;
     }
+
+      public static implicit operator Guid(UserId data)
+        => data.Value;
 }

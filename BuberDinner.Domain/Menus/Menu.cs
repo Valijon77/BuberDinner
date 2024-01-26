@@ -8,7 +8,7 @@ using BuberDinner.Domain.Menus.ValueObjects;
 
 namespace BuberDinner.Domain.Menus;
 
-public sealed class Menu : AggregateRoot<MenuId>
+public sealed class Menu : AggregateRoot<MenuId, Guid>
 {
     private readonly List<MenuSection> _sections = new();
     private readonly List<DinnerId> _dinnerIds = new();
@@ -56,4 +56,8 @@ public sealed class Menu : AggregateRoot<MenuId>
             sections ?? new()
         );
     }
+
+#pragma warning disable CS8618
+    private Menu() { }
+#pragma warning restore CS8618
 }
