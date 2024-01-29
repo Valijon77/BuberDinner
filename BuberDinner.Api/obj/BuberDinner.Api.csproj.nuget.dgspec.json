@@ -259,6 +259,10 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[1.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [

@@ -586,7 +586,8 @@
       },
       "BuberDinner.Domain/1.0.0": {
         "dependencies": {
-          "ErrorOr": "1.9.0"
+          "ErrorOr": "1.9.0",
+          "MediatR": "11.1.0"
         },
         "runtime": {
           "BuberDinner.Domain.dll": {}

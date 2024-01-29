@@ -12,6 +12,7 @@ using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using BuberDinner.Infrastructure.Persistence.Repositories;
+using BuberDinner.Infrastructure.Persistence.Interceptors;
 
 namespace BuberDinner.Infrastructure
 {
@@ -38,6 +39,7 @@ namespace BuberDinner.Infrastructure
                     )
             );
 
+            services.AddScoped<PublishDomainEventsInterceptor>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IMenuRepository, MenuRepository>();
 
